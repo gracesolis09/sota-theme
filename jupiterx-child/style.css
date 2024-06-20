@@ -1,0 +1,292 @@
+/*
+Theme Name: JupiterX Child
+Description: Jupiter X Child Theme
+Author: Artbees
+Author URI: https://jupiterx.com
+Template: jupiterx
+Version: 1.0.0
+Text Domain: jupiterx-child
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Add your custom CSS codes in assets/less/style.less */
+table.reviews .review--info .name--date .date {
+    color: #000000;
+}
+input.form-control.blog-search {
+    font-size: 18px;
+}
+.food-categorys a {
+    text-decoration:none!important;
+}
+.food-categorys ul {
+    list-style-type: none;
+}
+.food-categorys li {
+    cursor: pointer;
+}
+h3.card-title {
+    margin: 10px 0 7px 0!important;
+    font-family: "Fjalla One", Sans-serif;
+    font-size: 24px!important;
+}
+.filter-wrap .search-title {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    color: #162333;
+    font-weight: 500;
+    font-family: "Fjalla One", Sans-serif;
+}
+#category-filter {
+    padding: 0px;
+    margin-bottom: 50px;
+}
+.jupiterx-main-content {
+    padding: 70px 0;
+}
+.jupiterx-main-header {
+    padding: 80px!important;
+    background-image: url(https://www.sotaweightloss.com/wp-content/uploads/2021/04/Blog-header-bkgrns.jpg)!important;
+    background-position: center center!important;
+    background-size: cover!important;
+}
+ol.breadcrumb {
+    display: none!important;
+}
+.jupiterx-search-form.blog-search-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #e5f2ff;
+    border-radius: 5px;
+}
+.jupiterx-search-form.blog-search-form .form-control {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: .5em 2em .5em .5em;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+.jupiterx-search-form.blog-search-form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #6c757d;
+    font-size: .875rem;
+    padding: 8px 10px;
+    height: 100%;
+    background-color: initial;
+}
+.jupiterx-icon-search-1:before {
+    content: "\EA04";
+    color: #3067a7;
+}
+.jupiterx-search-form__terms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 70%;
+    overflow-x: auto;
+}
+.jupiterx-search-form__terms div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 3px 10px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #fff;
+    border: 1px solid #b3c7e1;
+    border-radius: 3px;
+}
+.jupiterx-search-form__terms div a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 5px;
+    width: 17px;
+    height: 17px;
+    font-size: 10px;
+    color: #fff !important;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+.jupiterx-search-form__terms div:first-of-type {
+    margin-left: 12px;
+}
+.jupiterx-widget {
+    margin-bottom: 1.5rem;
+    font-size: .875rem;
+    overflow: hidden;
+    list-style: none;
+}
+.jupiterx-widget ul li {
+    margin-bottom: 0.6em;
+}
+.jupiterx-widget-content {
+    margin-top: 25px;
+}
+.raven-post-read-more a:hover{
+    color: #ffffff;
+}
+.raven-grid-3 .raven-grid-item {
+    width: 29.9%!important;
+}
+.raven-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.raven-grid-item.raven-post-item {
+    align-items: stretch;
+    display: flex;
+    -webkit-box-align: start;
+    padding: 0px;
+}
+.raven-grid-item.raven-post-item:hover {
+    -webkit-transition: all .3s ease-in-out!important;
+    transition: all .3s ease-in-out!important;
+}
+.raven-post-meta {
+    font-size: 12px;
+    color: #a8a8a8;
+}
+.raven-post-meta-item {
+    display: inline;
+}
+.btn-cat-dl.raven-post-button {
+    width: 180px!important;
+    height: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: var( --e-global-color-accent );
+    background-image: var( --e-global-color-accent );
+    border-radius: 4px 4px 4px 4px;
+}
+.raven-post-button:hover {
+    background-color: #00c698;
+    color: #ffffff;
+    background-image: none;
+}
+.category-recipe h3 {
+    font-size: 22px;
+    margin-bottom: 10px!important;
+    color: #ffffff;
+}
+.raven-post-title a{
+    color: #ffffff;
+}
+.raven-post-title :hover{
+    color: #ffffff;
+}
+.raven-load-more {
+    text-align: center;
+}
+.raven-load-more-button {
+    display: inline-block;
+    padding: 12px 24px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    border-radius: 3px;
+    background-color: #818a91;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+}
+.raven-posts .raven-grid-item {
+    border-radius: 10px;
+    margin: 15px;
+    width: 240px;
+    height: 240px;
+    align-items: flex-start;
+}
+.raven-post-inside {
+    text-align: end;
+}
+.line {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 2px;
+    background-color: #d3e3be;
+}
+.col-md-9.cat-listing {
+    padding: 0px 0 0 20px;
+}
+.cat-item {
+    font-size: 1rem;
+    font-weight: 700;
+    color:#22426c;
+}
+.js-recipe-cat li {
+    margin-bottom: 0.3rem!important;
+}
+.cat-item:hover, .cat-item.active {
+    color:#8ac443;
+    transition:cubic-bezier(0.19, 1, 0.22, 1);
+}
+span.js-term {
+    font-size: 14px;
+}
+.custom-loader {
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 50%;
+    border: 6px solid #81DD26;
+    border-color: #81DD26 transparent #81DD26 transparent;
+    animation: loader 1.2s linear infinite;
+}
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(360deg);
+   }
+}
+@media screen and (max-width: 992px) {
+    .raven-grid-3 .raven-grid-item {
+        width: 27%!important;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .raven-grid-3 .raven-grid-item {
+        width: 88%!important
+    }
+}
+
+/* Reviews CPT */
+.reviews-cpt-container .stars--rating {
+    margin-bottom: 0rem;
+}
+
+.becontainer .reviews-container .load-button {
+    display: none;
+}
