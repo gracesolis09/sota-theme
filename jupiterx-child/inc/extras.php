@@ -10,6 +10,14 @@ function cpt_reviews_shortcode() {
         'orderby'        => 'meta_value',
         'order'          => 'DESC',  //  Order direction: DESC for descending, ASC for ascending.
         // 'paged'          => $paged
+        'meta_query' => array(
+            array(
+                'key' => 'review_rating',  // Replace with the key of your ACF field
+                'value' => 4,
+                'type' => 'NUMERIC',
+                'compare' => '>=',  // Show posts where the ACF value is greater than or equal to 3
+            ),
+        ),
     ));
     // The Query
     // Check if the query returns any posts
@@ -78,6 +86,14 @@ function cpt_reviews_load_more_posts() {
         'orderby'        => 'meta_value',
         'order'          => 'DESC',  //  Order direction: DESC for descending, ASC for ascending.
         'paged'          => $page,
+        'meta_query' => array(
+            array(
+                'key' => 'review_rating',  // Replace with the key of your ACF field
+                'value' => 4,
+                'type' => 'NUMERIC',
+                'compare' => '>=',  // Show posts where the ACF value is greater than or equal to 3
+            ),
+        ),
     );
     
     $the_query = new WP_Query($args);
